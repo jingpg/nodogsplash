@@ -1,53 +1,47 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>$gatewayname Entry</title>
-	<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
-</head>
-<body bgcolor="#DDDDDD" text="#000000">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">  
+<meta name="MobileOptimized" content="320">
+<script type="text/javascript" src="$imagesdir/jquery.js"></script>
+<title>$gatewayname</title>
+<style>
+html{ margin:0px; padding:0px;}
+body{  margin:0px; padding:0px; font-size:12px;color:#333333;background:#fff;}
+img{ border:0 none;overflow:hidden; display:block;}
+.list-clearfix:after,
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.list-clearfix,
+.clearfix{zoom:1;}
+.d_and{}
+.top img{ margin:30px auto 25px;max-width:40%;}
+.m_l{ float:left; margin-left:15px;max-width:50%;}
+.m_r{ float:left; margin:60px 0 0 0;}
+.m_r p{ font-size:1.75em; line-height:0.2em; color:#666; font-family:微软雅黑,Microsoft YaHei,Tahoma, Geneva, sans-serif; }
+.bottom img{ margin:-10px auto 35px;max-width:90%;}
+.tanchuang{ width:60%; background-color:#fff; text-align: center; display:none; }
+.tanchuang img{ margin:0 auto;}
+.big_arrow{ position:absolute; top:5px; right:20px; max-width:25%}
+.step p{ font-size:14px; color:#444; margin:5px 0; padding:0;}
+.step1{  margin-top:30px; height:20px;}
+.step1 p{position:relative;}
+.step2 p{margin-left:20px;}
+.step1 img{ position: relative; top:-20px; left:65px;max-width:10%;}
+.step2 img{max-width:35%; margin-bottom:5px;  }
+.step3 img{max-width:25%; margin-bottom:20px; }
+img.arrow{ margin:0px auto 0; max-width:6%}
+.know{width:30%; height:30px; background-color:#ff7e00; border-radius:4px; margin:15px auto}
+.know span{ text-align:center;line-height:30px; font-size:14px; color:#fff;}
+</style></head>
 
-<table border="0" cellpadding="2" cellspacing="0" width="100%">
-<tr>
-	<td align="center"><h2>$gatewayname</h2></td>
-</tr>
-<tr>
-	<td align="center" height="120">
-<!--
-	A client is authenticated by requesting the page $authtarget.
-	So, href to it here, with an img or link text the user can click on.
-	Also, note that any images you reference must reside in the
-	subdirectory that is the value of $imagesdir (default: "images").
-
-	Available variables:
-	error_msg: $error_msg
-	gatewayname: $gatewayname
-	tok: $tok
-	redir: $redir
-	authaction: $authaction
-	denyaction: $denyaction
-	authtarget: $authtarget
-	clientip: $clientip
-	clientmac: $clientmac
-	gatewaymac: $gatewaymac
-	nclients: $nclients
-	maxclients: $maxclients
-	uptime: $uptime
-	imagesdir: $imagesdir
-	pagesdir: $pagesdir
-
-	Variables that can be passed back via HTTP GET.
-	Just append them to the authentication link:
-	nodoguser
-	nodogpass
-	info
-	voucher
--->
-	<a href="$authtarget">
-	<img src="$imagesdir/splash.jpg" width="71" height="49" border="0"
-		alt="Click to enter" title="Click to enter">
-	</a>
-	</td>
-</tr>
-</table>
-
-</body>
-</html>
+<body>
+<div class="d_and">
+	<img style="width:100%" src="$imagesdir/ios_xb2.jpg">
+	<p class="text-center mt_a"></p>
+	<div class="bottom">
+    	<a href="$authtarget"><img src="$imagesdir/button_02.png"></a>
+	</div> 
+</div>
+</body></html>
